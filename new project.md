@@ -13,7 +13,7 @@
   1. ```$rails new project_name```
   2. ```$cd project_name```
 4. Initialize simple rails layout and bootstrap
-  1. Run ```$rails generate install:simple --force```
+  1. Run ```$rails generate layout:install simple --force```
   2.  Initiate bootstrap gem by adding the ```@import "bootstrap-sprockets";``` and ```@import "bootstrap";``` to the bottom of ```application.css.scss```
   3.  Make sure ```//= require jquery``` and ```//= require bootstrap-sprockets``` are included at the bottom of ```application.js```.
 5. Initialize git repository
